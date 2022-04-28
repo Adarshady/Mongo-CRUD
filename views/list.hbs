@@ -1,0 +1,20 @@
+<h1>
+    Student Details
+</h1>
+
+<table>
+    <tr>
+        <th> FIRST NAME </th>
+        <th> LAST NAME </th>
+        <th> Email</th>
+        <th>MOBILE NUMBER</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.first_name}}</td>
+        <td>{{this.last_name}}</td>
+        <td>{{this.email}}</td>
+        <td>{{this.mobile}}</td>
+    </tr>
+    {{/each}}
+</table>
